@@ -1,0 +1,47 @@
+.summary-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(135deg, #fbc2eb 0%, #a6c1ee 100%);
+  color: #333;
+}
+
+.summary-content {
+  background-color: #fff;
+  padding: 40px;
+  border-radius: 15px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  max-width: 600px;
+  width: 100%;
+  text-align: center;
+}
+
+h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.answers-list {
+  text-align: left;
+  margin-bottom: 30px;
+}
+
+.answer-item {
+  margin-bottom: 15px;
+}
+
+.confirm-button {
+  padding: 15px 30px;
+  font-size: 1.5rem;
+  color: white;
+  background-color: #4caf50;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.confirm-button:hover {
+  background-color: #388e3c;
+}
